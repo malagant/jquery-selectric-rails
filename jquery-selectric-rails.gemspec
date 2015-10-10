@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'jquery/selectric/rails/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'js-selectric-rails'
+  spec.name          = 'jquery-selectric-rails'
   spec.version       = Jquery::Selectric::Rails::VERSION
   spec.authors       = ['Michael Johann']
   spec.email         = ['mjohann@rails-experts.com']
@@ -18,6 +18,4 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency 'bundler'
   spec.add_development_dependency 'rake'
-
-  spec.add_dependency 'railties', '> 3.2'
 end
